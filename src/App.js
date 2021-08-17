@@ -6,6 +6,7 @@ import { Home, Graph } from "./views";
 import { useAuth0 } from "@auth0/auth0-react";
 import ProtectedRoute from "./auth/protected-route";
 import { Route, Switch } from "react-router-dom";
+import './redux';
 
 function App() {
   const { isLoading } = useAuth0();
